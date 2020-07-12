@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 part 'widgets/container_responsive_widget.dart';
+part 'widgets/edge_isents_responsive.dart';
 
 class GetResponsive {
   static Widget builder({

@@ -11,6 +11,7 @@ class NonResponsiveW extends StatelessWidget {
             height: 100,
             width: 100,
             child: Container(
+              padding: EdgeInsets.all(24),
               color: Colors.lightGreen,
               height: 50,
               width: 50,
