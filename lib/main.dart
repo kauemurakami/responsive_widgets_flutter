@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_responsive/example/non_responsive_widget.dart';
 import 'package:get_responsive/reponsive_widgets/get_responsive.dart';
 
 import 'example/home.dart';
-import 'example/responsive_widget.dart';
 
 void main() {
   runApp(MyApp());
