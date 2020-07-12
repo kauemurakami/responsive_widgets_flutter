@@ -7,6 +7,7 @@ part 'widgets/container_responsive_widget.dart';
 part 'widgets/edge_isents_responsive.dart';
 part 'widgets/raised_button_responsive_widget.dart';
 part 'widgets/sized_box_responsive_widget.dart';
+part 'widgets/text_responsive_widget.dart';
 
 class GetResponsive {
   static Widget builder({
