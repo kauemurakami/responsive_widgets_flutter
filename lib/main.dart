@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowMaterialGrid: true,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -59,11 +60,9 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-    GetResponsive.init(context, height: Get.height, width: Get.width);
+    GetResponsive.init(context, height: Get.height, width: Get.width, allowFontScaling: true);
     return GetResponsive.builder(
-      height: Get.height,
-      width: Get.width,
-      allowFontScaling: true,
+      
       child: Scaffold(
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
